@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from "next/link";
 
 const Header = () => {
 
@@ -23,7 +24,9 @@ const Header = () => {
                   hover:border-b-indigo-500 pb-[5px]'>{items}</li>
                     ))
                 }
-                <li className='not-italic font-normal text-[14px] leading-[12px] text-[#FFFFFF] hover:bg-blue-700 transition cursor-pointer bg-[#735CFF] py-[22px] px-[54px] rounded-[5px]'>Войти</li>
+                <Link href='http://localhost:8080/login'>
+                    <li className='not-italic font-normal text-[14px] leading-[12px] text-[#FFFFFF] hover:bg-blue-700 transition cursor-pointer bg-[#735CFF] py-[22px] px-[54px] rounded-[5px]'>Войти</li>
+                </Link>
             </ul>
         </header>
     );
