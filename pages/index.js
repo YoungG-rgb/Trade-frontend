@@ -1,3 +1,4 @@
+
 import Head from 'next/head'
 import MainContent from "@/components/MainContent";
 import FollowUs from "@/components/FollowUs";
