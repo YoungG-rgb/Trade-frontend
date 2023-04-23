@@ -6,6 +6,7 @@ import Features from "@/components/Features";
 import Slides from "@/components/Slides";
 import AboutUs from "@/components/AboutUs";
 import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 
 export default function Home() {
 
@@ -17,6 +18,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main className=''>
+        <Header />
         <FollowUs/>
         <MainContent/>
         <Features/>
