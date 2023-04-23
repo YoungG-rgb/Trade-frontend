@@ -1,11 +1,11 @@
 import Head from 'next/head'
-import MainContent from "@/../../../../WebstormProjects/Trade-frontend/components/MainContent";
-import FollowUs from "@/../../../../WebstormProjects/Trade-frontend/components/FollowUs";
-import OurMission from "@/../../../../WebstormProjects/Trade-frontend/components/OurMission";
-import Features from "@/../../../../WebstormProjects/Trade-frontend/components/Features";
-import Slides from "@/../../../../WebstormProjects/Trade-frontend/components/Slides";
-import Footer from "@/../../../../WebstormProjects/Trade-frontend/components/Footer";
 import AboutUs from "@/components/AboutUs";
+import FollowUs from "@/components/FollowUs";
+import MainContent from "@/components/MainContent";
+import Features from "@/components/Features";
+import OurMission from "@/components/OurMission";
+import Slides from "@/components/Slides";
+import Footer from "@/components/Footer";
 
 export default function Home() {
 

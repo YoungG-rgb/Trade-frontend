@@ -8,7 +8,7 @@ const MainContent = () => {
                 <p className='mb-[30px] not-italic font-normal text-[14px] leading-[28px] text-[#939393]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim facilisi elementum <br/> commodo ipsum. Aenean aenean adipiscing lect</p>
 
                 <div className='absolute top-[140px] z-[-1] right-0'>
-                    <img className='' src="/Users/ACER/Desktop/tradeWebSite/Trade-frontend/public/main/imgMain.png" alt="imgMain"/>
+                    <img className='' src="/main/imgMain.png" alt="imgMain"/>
                 </div>
             </div>
         </div>
