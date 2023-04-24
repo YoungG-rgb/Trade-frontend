@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 
 const Gallery = () => {
-    // Массив с техникой
+    // Массив с продуктами
     const [items, setItems] = useState([
-        { id: 1, name: 'Техника 1', color: 'red', price: 100 },
-        { id: 2, name: 'Техника 2', color: 'blue', price: 200 },
-        { id: 3, name: 'Техника 3', color: 'green', price: 150 },
-        { id: 4, name: 'Техника 4', color: 'red', price: 300 },
-        { id: 5, name: 'Техника 5', color: 'blue', price: 250 },
-        { id: 6, name: 'Техника 6', color: 'green', price: 180 },
+        { id: 1, name: 'Продукт 1', color: 'red', price: 100, imageUrl: 'https://photo.watches.ru/121747/48189-s.jpg?ts=1570349809' },
+        { id: 2, name: 'Продукт 2', color: 'blue', price: 200, imageUrl: 'https://photo.watches.ru/121745/48187-s.jpg?ts=1676628071' },
+        { id: 3, name: 'Продукт 3', color: 'green', price: 150, imageUrl: 'https://photo.watches.ru/121746/48188-s.jpg?ts=1570349809' },
+        { id: 4, name: 'Продукт 4', color: 'red', price: 300, imageUrl: 'https://www.bestwatch.ru/bigimage/Jacques%20Lemans/1-2022E.jpg' },
+        { id: 5, name: 'Продукт 5', color: 'blue', price: 250, imageUrl: 'https://photo.watches.ru/121737/48179-b.jpg?ts=1676628069' },
+        { id: 6, name: 'Продукт 6', color: 'green', price: 180, imageUrl: 'https://www.alltime.ru/obj/catalog/watch/jacques-lemans/img/big/1-2022F.jpg' },
     ]);
 
     // Состояния фильтров
@@ -31,7 +31,7 @@ const Gallery = () => {
         setFilterColor('');
     };
 
-    // Применение фильтров к технике
+    // Применение фильтров в продуктах
     const filteredItems = items.filter(
         (item) =>
             (filterPrice === '' || item.price <= filterPrice) &&
@@ -74,7 +74,7 @@ const Gallery = () => {
                 <ul className='flex gap-[29px] flex-wrap'>
                     {filteredItems.map((item) => (
                         <li key={item.id} className='rounded-[7px] text-center'>
-                            <img className='w-[254px] h-[298px]' src="https://pbs.twimg.com/tweet_video_thumb/FGWXl8sXoAcZE7U.jpg" alt="image"/>
+                            <img className='w-[254px] h-[298px]' src={item.imageUrl} alt="image"/>
                             <p>Название: {item.name}</p>
                             <p>Цвет: {item.color}</p>
                             <p>Цена: {item.price}</p>

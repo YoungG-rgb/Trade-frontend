@@ -8,7 +8,7 @@ const Header = () => {
     return (
         <header className='flex items-center justify-between main_container py-[16px]'>
             <div className='w-[270px]'>
-                <img className='w-full bg-cover' src="/Users/ACER/WebstormProjects/Trade-frontend/public/logo/logo.svg" alt="logo"/>
+                <img className='w-full bg-cover' src="/logo/logo.svg" alt="logo"/>
             </div>
             <ul className='flex items-center gap-[40px]'>
                         <li className='not-italic font-normal text-[14px] leading-[12px] text-[#939393] hover:text-[#000000] cursor-pointer

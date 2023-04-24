@@ -6,8 +6,8 @@ const Footer = () => {
     <div className=''>
 
       <div className='relative mb-[89px]'>
-        <img className='w-full' src="/main/imgLoginBg.png" alt="img"/>
-        <img className='w-full absolute top-0' src="/main/imgLoginShadow.png" alt="img"/>
+        <img className='w-full' src="/main/imgLoginBg.svg" alt="img"/>
+        <img className='w-full absolute top-0' src="/main/imgLoginShadow.svg" alt="img"/>
         <div className='absolute top-[10%] left-[22%] text-center'>
           <h2 className='mb-[30px] not-italic font-bold text-[36px] leading-[45px] text-white'>miss your chance to get free Giveaway <br/>
             Sing up to our newsletter</h2>

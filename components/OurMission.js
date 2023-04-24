@@ -5,8 +5,8 @@ const OurMission = () => {
         <div className='w-full mb-[106px]'>
             <div className='flex h-[500px] relative'>
                 <div className='flex relative'>
-                    <img className='h-[450px] w-[600px]' src="/Users/ACER/Desktop/tradeWebSite/Trade-frontend/public/main/imgModelMission.png" alt="modelMission"/>
-                    <img className='absolute right-0 h-full' src="/Users/ACER/Desktop/tradeWebSite/Trade-frontend/public/main/bgShadowMission.svg" alt=""/>
+                    <img className='h-[450px] w-[600px]' src="/main/imgModelMission.svg" alt="modelMission"/>
+                    <img className='absolute right-0 h-full' src="/main/bgShadowMission.svg" alt=""/>
                 </div>
                 <div className='bg-black w-full relative'>
                     <div className='ourMissionBlock'>

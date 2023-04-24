@@ -31,7 +31,7 @@ const Features = () => {
               Glass: Sapphire Crystal <br/>
               Straps: 22mm Stainless-steel bracelet, Milanese Mesh bracelet, Leather</p>
           </div>
-          <img className='' src="/main/imgFeatures.png" alt=""/>
+          <img className='' src="/main/imgFeatures.svg" alt="imgFeatures"/>
           <img className='absolute top-[110px] left-[187px]' src="/main/line1.svg" alt="line1"/>
           <img className='absolute top-[190px] right-[214px]' src="/main/line2.svg" alt="line2"/>
           <img className='absolute bottom-[140px] left-[255px]' src="/main/line3.svg" alt="line3"/>
