@@ -1,5 +1,5 @@
 import React from 'react';
-import Gallery from "@/../../../../WebstormProjects/Trade-frontend/components/products/GalleryProducts";
+import Gallery from "@/components/products/GalleryProducts";
 
 const Products = () => {
     return (

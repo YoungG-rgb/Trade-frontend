@@ -39,9 +39,12 @@ const Slides = () => {
     return (
         <div className='main_container'>
             <div className='mb-[255px]'>
-                <h2 className='font-normal not-italic text-[42px] leading-[25px] text-black mb-[37px]'>Watches</h2>
-                <p className='not-italic font-normal text-[14px] leading-[28px] text-[#939393]'>Volumenzeit gives you a total of 48 style combinations with 4 dial types, 4 dial colors, 3 case colors, <br/>
-                    multiple stylish strap combinations, and customized engraving options.</p>
+                <h2 className='font-normal not-italic text-[42px] leading-[25px] text-black mb-[37px]'>Часы</h2>
+                <p className='not-italic font-normal text-[14px] leading-[28px] text-[#939393]'>
+                    Volumenzeit дает вам в общей сложности 48 комбинаций стилей с 4 типами циферблатов, 4 цветами циферблатов, 3 цветами корпуса,
+                    <br/>
+                    несколько стильных комбинаций ремешков и индивидуальные варианты гравировки.
+                </p>
                 <div className='mt-[83px] relative'>
                     <Swiper
                         slidesPerView={3}
@@ -54,13 +57,14 @@ const Slides = () => {
                         className="mySwiper"
                     >
                         {
-                            slides.map((i)=>(
+                            slides.map((i) => (
+                                // eslint-disable-next-line react/jsx-key
                                 <SwiperSlide>
                                     <div className=''>
                                         <img className='rounded-[10px]' src={i.img} alt="img"/>
                                         <p className='mt[26px] mb-[23px]'>{i.name}</p>
-                                        <span>{i.price}</span>
-                           a         </div>
+                                        <span>{i.price}</span>с
+                                    </div>
                                 </SwiperSlide>
                             ))
                         }
