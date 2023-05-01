@@ -2,9 +2,9 @@ import React, {useState} from "react";
 import axios from "axios";
 import {alertService} from "@/services/alert.service";
 
-const baseUrl = 'http://localhost:8080'
+// const baseUrl = 'http://localhost:8080'
 
-const Footer = () => {
+const Footer = ({baseUrl}) => {
   const [userModel, setState] = useState({
     username: '',
     password: '',
@@ -85,5 +85,14 @@ const Footer = () => {
     </div>
   );
 };
+
+export async function getStaticProps() {
+  const baseUrl = await fetch('http://localhost:8080').then(res => res.json())
+  return {
+    props: {
+      baseUrl,
+    },
+  }
+}
 
 export default Footer;

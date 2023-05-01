@@ -70,10 +70,10 @@ const Slides = () => {
                         }
                     </Swiper>
                     <div className='custom-prev absolute cursor-pointer z-10 bottom-[-100px] left-[0px]'>
-                        <img src="./slides/arrowLeft.svg" alt="arrowLeft"/>
+                        <img src="/slides/arrowLeft.svg" alt="arrowLeft"/>
                     </div>
                     <div className='custom-next absolute cursor-pointer z-10 bottom-[-100px] right-[700px]'>
-                        <img src="./slides/arrowRight.svg" alt="arrowRight"/>
+                        <img src="/slides/arrowRight.svg" alt="arrowRight"/>
                     </div>
                 </div>
             </div>

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Header = () => {
 
-    const headerMenu = ['Главная','Продукты','Наша миссия','О нас','Часы']
+    // const headerMenu = ['Главная','Продукты','Наша миссия','О нас','Часы']
 
     return (
         <header className='flex items-center justify-between main_container py-[16px]'>
