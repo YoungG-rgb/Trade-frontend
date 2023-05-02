@@ -3,7 +3,7 @@ import Gallery from "@/components/products/GalleryProducts";
 
 const Index = () => {
   return (
-    <div>
+    <div className='my-[60px]'>
       <Gallery/>
     </div>
   );
