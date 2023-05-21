@@ -2,7 +2,7 @@ import React from 'react';
 import Link from "next/link";
 
 const Header = () => {
-
+    let isAnonymous = true;
     // const headerMenu = ['Главная','Продукты','Наша миссия','О нас','Часы']
 
     return (
@@ -56,8 +56,11 @@ const Header = () => {
                   border-l-0
                   transition
                   hover:border-b-indigo-500 pb-[5px]'><Link href='/'>Часы</Link></li>
-                <Link href='http://localhost:8080/login'>
+                <Link href='http://localhost:8080/login' hidden={!isAnonymous}>
                     <li className='not-italic font-normal text-[14px] leading-[12px] text-[#FFFFFF] hover:bg-blue-700 transition cursor-pointer bg-[#735CFF] py-[22px] px-[54px] rounded-[5px]'>Войти</li>
+                </Link>
+                <Link href='http://localhost:8080/logout' hidden={isAnonymous}>
+                    <li className='not-italic font-normal text-[14px] leading-[12px] text-[#FFFFFF] hover:bg-blue-700 transition cursor-pointer bg-[#735CFF] py-[22px] px-[54px] rounded-[5px]'>Выйти</li>
                 </Link>
             </ul>
         </header>
