@@ -6,6 +6,7 @@ import Features from "@/components/Features";
 import OurMission from "@/components/OurMission";
 import Slides from "@/components/Slides";
 import Footer from "@/components/Footer";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Home() {
 

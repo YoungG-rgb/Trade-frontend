@@ -19,7 +19,7 @@ const FollowUs = () => {
                 <li className='cursor-pointer flex items-center justify-center drop-shadow-md transition bg-instagram hover:text-white bg-white rounded-[50%] w-[40px] h-[40px]'>
                     <span className='icon-instagram text-[25px]'></span>
                 </li>
-                <li className='not-italic font-normal text-[14px] leading-[12px] tracking-[0.44em] text-black rotate-[-90deg] absolute bottom-[-70px] left-[-40px] w-[120px]'>Follow us</li>
+                <li className='not-italic font-normal text-[14px] leading-[12px] tracking-[0.44em] text-black rotate-[-90deg] absolute bottom-[-70px] left-[-12px] w-[120px]'>Follow us</li>
             </ul>
         </div>
     );
